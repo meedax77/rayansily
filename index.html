@@ -1,0 +1,314 @@
+<!DOCTYPE html> <html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="author" content="meeda">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Rayan Suliman</title>
+<meta name="description" content="  Rayan Suliman CV's"/>
+<link rel="icon" type="" href="">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="timeline.css">
+<link rel="icon" type="image/png" href="files/logo.png">
+
+<!-- Your existing JavaScript libraries or scripts -->
+
+<!-- Modify the following script for coloring the selected menu item -->
+<!-- Your existing JavaScript libraries or scripts -->
+
+<!-- Modify the following script for coloring the selected menu item -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Get all menu items
+    const menuItems = document.querySelectorAll('.menu a');
+
+    // Add click event listener to each menu item
+    menuItems.forEach(item => {
+      item.addEventListener('click', function () {
+        // Remove 'active' class from all menu items
+        menuItems.forEach(item => {
+          item.classList.remove('active');
+        });
+
+        // Add 'active' class to the clicked menu item
+        this.classList.add('active');
+      });
+    });
+
+    // Set the initial active menu item based on the current page
+    const path = window.location.pathname;
+    const currentPage = path.substring(path.lastIndexOf('/') + 1);
+    
+    menuItems.forEach(item => {
+      const href = item.getAttribute('href');
+      if (currentPage === href || (currentPage === "" && href === "index.html")) {
+        item.classList.add('active');
+      }
+    });
+  });
+</script>
+
+</head>
+
+<body>
+  <div class="black-overlay">
+
+    <header class="head">
+      <a href="index.html"><img src="files/logo.png" alt="logo"></a>
+      <ul class="menu">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="works.html">Works</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a href="contact.html" class="letstalk">Let's talk</a>
+    </header>
+
+  <div class="sections">
+
+      <div class="section1">
+    <div class="profile">
+      <div class="nameback">
+      <p class="name">Rayan <br> Suliman</p>
+    </div>
+      <div class="formore">
+        <p class="custome">Web Designer, IT & Marketing</p>
+        <p class="intro">A Programmer based in Almadinah Almunawarah, Saudi Arabia</p>
+        <a class="morebutton" href="about.html"><img src="files/icon.svg" alt=""></a>
+      </div>
+    </div>
+
+    <div class="one">
+
+      <div class="latest">
+        <p class="moving-text">currently working as a programmer & marketer at Ghaith Al-Shifa</p>
+      </div>
+
+    <div class="one_one">
+    <div class="formore more ">
+      <img src="files/sign.png" alt="sign">
+      <div class="morediv">
+        <div class="thetwotext">
+          <p class="moreaboutme">MORE ABOUT ME</p>
+          <p class="moreaboutmer" >Resume</p>
+        </div>
+        <div class="morebuttondiv">
+          <a class="morebutton paddingclass" href="files.html"><img src="files/icon.svg" alt=""></a>
+        </div>
+      </div>
+      
+
+    </div>
+
+    <div class="formore projects">
+      <img src="files/my-works.png" alt="sign">
+      <div class="morediv">
+        <div class="thetwotext">
+          <p class="moreaboutme">SHOWCASE</p>
+          <p class="moreaboutmer" >Projects</p>
+        </div>
+        <div class="morebuttondiv">
+          <a class="morebutton paddingclass" href="works.html"><img src="files/icon.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+      </div>
+      
+      <div class="section2">
+        <div class="courses formore">
+          <img class="pythonimg" src="files/PYTHON.png" alt="sign">
+          <div class="morediv">
+            <div class="thetwotext" style="padding-top: 20px;">
+              <p class="moreaboutme">TOOLS</p>
+              <p class="moreaboutmer" >Skills</p>
+            </div>
+            <div class="morebuttondiv" style="padding-top: 50px;">
+              <a class="morebutton paddingclass" href="about.html"><img src="files/icon.svg" alt=""></a>
+            </div>
+          </div>
+
+          
+
+        </div>
+
+
+        <div class="service formore">
+          <img class="tollsimg" width="110px" src="files/code.png" alt="">
+          <img class="tollsimg" width="110px" src="files/design.png" alt="">
+          <img class="tollsimg" width="110px" src="files/it.png" alt="">
+          <img class="tollsimg" width="110px"  src="files/marketing.png" alt="">
+          <div class="tollsimg" class="morediv">
+            <div class="thetwotext" style="padding-top: 20px;">
+              <p class="moreaboutme">SPECIALIZATION</p>
+              <p class="moreaboutmer" >Services I Offer</p>
+            </div>
+            <div class="morebuttondiv button" style="padding-top: 30px;">
+              <a class="morebutton paddingclass" href="about.html"><img src="files/icon.svg" alt=""></a>
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+
+        <div class="social">
+          <img style="padding: 40px 0;" class="pythonimg" src="files/ME.png" alt="sign">
+          <div class="morediv">
+            <div class="thetwotext" style="padding-top: 20px;">
+              <p class="moreaboutme">courses and certificates</p>
+              <p class="moreaboutmer" > My files</p>
+            </div>
+            <div class="morebuttondiv" style="padding-top: 50px;">
+              <a style="margin-right: 30PX;" class="morebutton paddingclass" href="files.html"><img src="files/icon.svg" alt=""></a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div class="section3">
+        <div class="exp">
+
+          <p class="theexp1" >07</p>
+          <p class="theexp2" >YEARS <br>
+            EXPERIENCE</p>
+
+        </div>
+    
+        <div class="edu">
+          <img class="icon2" src="files/icon2.png" alt="">
+          <div class="morediv addpadding">
+            <div class="thetwotext " ">
+              <p>Let's <br> Work <span>Togather</span> </p>
+            </div>
+            <div class="morebuttondiv" style="padding-top: 30px;">
+              <a style="margin-right: 30PX;" class="morebutton paddingclass" href="contact.html"><img src="files/icon.svg" alt=""></a>
+            </div>
+          </div>
+
+    
+        </div>
+      </div>
+  </div>
+
+
+
+  <div class="branches">
+
+    <div class="branch1">
+      <div class="profile">
+        <div class="nameback">
+        <p class="name">Rayan <br> Suliman</p>
+      </div>
+        <div class="formore">
+          <p class="custome">Web Designer, IT & Marketing</p>
+          <p class="intro">A Programmer based in Almadinah Almunawarah, Saudi Arabia</p>
+          <a class="morebutton" href="about.html"><img src="files/icon.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="branch2">
+      <div class="latest">
+        <p class="moving-text">currently working at Ghaith Al-Shifa</p>
+      </div>
+    </div>
+
+    <div>
+        <div class="formore more ">
+          <img src="files/sign.png" alt="sign">
+          <div class="morediv">
+            <div class="thetwotext">
+              <p class="moreaboutme">MORE ABOUT ME</p>
+              <p class="moreaboutmer" >Resume</p>
+            </div>
+            <div class="morebuttondiv">
+              <a class="morebutton paddingclass" href="files.html"><img src="files/icon.svg" alt=""></a>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+
+    <div>
+      <div class="formore more22 ">
+        <img src="files/my-works.png" alt="sign">
+        <div class="morediv">
+          <div class="thetwotext">
+            <p class="moreaboutme">SHOWCASE</p>
+            <p class="moreaboutmer" >Projects</p>
+          </div>
+          <div class="morebuttondiv">
+            <a class="morebutton paddingclass" href="works.html"><img src="files/icon.svg" alt=""></a>
+          </div>
+        </div>
+      
+    </div>
+  </div>
+
+
+
+  <div>
+    <div class="formore more22 ">
+      <img style="padding: 40px 0;" class="pythonimg" src="files/ME.png" alt="sign">
+      <div class="morediv">
+        <div class="thetwotext" style="padding-top: 20px;">
+          <p class="moreaboutme">courses and certificates</p>
+          <p class="moreaboutmer" > My files</p>
+        </div>
+        <div class="morebuttondiv" style="padding-top: 30px;">
+          <a style="margin-right: 30PX;" class="morebutton paddingclass" href="files.html"><img src="files/icon.svg" alt=""></a>
+        </div>
+      </div>
+    
+  </div>
+  </div>
+
+
+  <div>
+    <div class="exp">
+  
+      <p class="theexp1" >07</p>
+      <p class="theexp2" >YEARS <br>
+        EXPERIENCE</p>
+  
+    </div>
+  </div>
+  
+  <div>
+    <div class="edu">
+      <img class="icon2" src="files/icon2.png" alt="">
+      <div class="morediv addpadding">
+        <div class="thetwotext2 " ">
+          <p>Let's <br> Work <span>Togather</span> </p>
+        </div>
+        <div class="morebuttondiv" style="padding-top: 30px;">
+          <a style="margin-right: 65PX;" class="morebutton paddingclass" href="contact.html"><img src="files/icon.svg" alt=""></a>
+        </div>
+      </div>
+
+
+    </div>
+</div>
+
+
+
+
+
+  </div>
+    <footer>
+        <a class="lastlogo" href="index2.html"><img src="files/logo.png" alt="logo"></a>
+      <p>© All rights reserved by <a href="index.html">rayansily</a></p>
+  </footer>
+</div>
+</body>
+
+<script src="script.js"></script>
+
+
